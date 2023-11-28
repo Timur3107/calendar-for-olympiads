@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OlympiadApp</class>
+ <widget class="QMainWindow" name="OlympiadApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Olympiad Notes</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="subject_label">
+      <property name="text">
+       <string>Название предмета:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="subject_input"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="name_label">
+      <property name="text">
+       <string>Название олимпиады:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="name_input"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="date_label">
+      <property name="text">
+       <string>Дата олимпиады (ДД.ММ.ГГГГ):</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="date_input"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="level_label">
+      <property name="text">
+       <string>Уровень олимпиады:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="level_input"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="add_button">
+      <property name="text">
+       <string>Добавить олимпиаду</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="delete_button">
+      <property name="text">
+       <string>Удалить выбранную олимпиаду</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="table">
+      <column>
+       <property name="text">
+        <string>id:</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Предмет:</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Олимпиада:</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Дата:</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Уровень РСОШ:</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sort_button">
+      <property name="text">
+       <string>Сортировать</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
